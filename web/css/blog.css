@@ -1,0 +1,343 @@
+﻿html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#background{
+	background-image: url(1.jpg);/*背景图片地址*/
+	background-position: center;/*背景展示在正中间*/
+	background-size: cover;/*背景覆盖整个页面*/
+	display: table;
+	width: 100%;/*宽度为网页全部*/
+	height: 100%;/*高度。。。*/
+}
+.headtop {
+    background: url(2.jpg) repeat-x;
+	height: 28px;
+}
+.contenttop {
+	width: 1000px;
+	margin: auto;
+}
+.f_l {
+	float: left
+}
+.f_r {
+	float: right
+}
+.search {
+	width: 240px;
+	margin: 50px 0 0 0
+}
+.logo {
+	padding: 50px 0 20px 20px;
+	font-size: 26px;
+	font-family: "微软雅黑", sans-serif;
+	color: #333;
+	font-weight: bold;
+}
+.blank {
+	height: 10px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	clear: both
+}
+.navigation {
+	height: 68px;
+	position: relative;
+	margin-left: 170px;
+	background: url(3.png) no-repeat;
+	font-family: "微软雅黑";
+}
+.menu {
+	/*position: relative;*/
+	position:absolute;
+	margin-left: 60px;
+	padding-top: 4px
+}
+.menu1 {
+	/*position: relative;*/
+	position:absolute;
+	margin-left:160px;
+	padding-top: 4px
+}
+.menu2 {
+	/*position: relative;*/
+	position:absolute;
+	margin-left:260px;
+	padding-top: 4px
+}
+.menu3 {
+	/*position: relative;*/
+	position:absolute;
+	margin-left:360px;
+	padding-top: 4px
+}
+.menu4 {
+	  /*position: relative;*/
+	  position:absolute;
+	  margin-left:460px;
+	  padding-top: 4px
+  }
+.menu5 {
+	/*position: relative;*/
+	position:absolute;
+	margin-left:560px;
+	padding-top: 4px
+}
+#logincontainer{
+	width: 80%;
+	height: 80%;
+	margin: 40px auto;
+	position: relative;
+	max-width: 1024px;
+	font-family: "Helvetica";
+	color:black;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+#container{
+	/*border-right: 1px solid #000;*/
+	width: 400px;
+	height: 70%;
+	padding: 45px;
+	margin: 0px auto;
+	/*margin-left: 300px;*/
+}
+.login{
+	margin-bottom:10px;
+	color: 	black;
+}
+.login1{
+	font-size: 20px;
+	margin-left: 4px;
+	font-family: YouYuan;
+	font-weight:800;
+}
+.login a{
+    color:black;
+    font-family: YouYuan;
+	font-weight:800;
+}
+.login a:hover{
+    font-size: 20px;
+    color: red;
+    font-family: YouYuan;
+	font-weight:800;
+}
+#container button{
+	background-color: #3399FF;
+	border: 2px solid #fff;
+	border-radius: 230px;
+	color:#fff;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 45px;
+	width: 290px;
+}
+#container button:hover{
+	cursor: pointer;
+	font-size: 22px;
+	letter-spacing: 4px;
+}
+#userName{
+	height: 38px;
+	width: 350px;
+}
+
+#password{
+	height: 38px;
+	width: 350px;
+	margin-top: 20px;
+}
+#repassword{
+	height: 38px;
+	width: 350px;
+	margin-top: 10px;
+}
+.container {
+	background: #e5e5e5;
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+	border-left: #d2d2d2 1px solid;
+	border-right: #d2d2d2 1px solid;
+}
+.con_content {
+	overflow: hidden;
+	width: 958px;
+	margin: auto;
+	border: #CCC 1px solid
+}
+.about_box {
+	padding: 20px;
+	overflow: hidden;
+}
+.about_content {
+	line-height: 24px;
+	font-size: 14px;
+	padding: 20px
+}
+.about_content p {
+	margin-bottom: 15px;
+	text-indent: 2em
+}
+.about_content p img {
+	margin: auto
+}
+.nh1 {
+	line-height: 31px;
+	height: 31px;
+	font-size: 14px;
+	border-bottom: #333 2px solid;
+	color: #171717;
+}
+.nh1 span {
+	float: right;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal
+}
+.nh1 span a {
+	color: #666;
+	margin: 0 5px
+}
+.nh1 span a:hover {
+	color: #000
+}
+.a_title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	line-height: 50px
+}
+.p_title {
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	line-height: 50px;
+}
+.blank {
+	height: 8px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	clear: both
+}
+/*#verificationCode{*/
+	/*height: 38px;*/
+	/*width: 170px;*/
+	/*margin-top: 20px;*/
+/*}*/
+/*#picture{*/
+	/*height: 38px;*/
+	/*width: 140px;*/
+	/*margin-top: 20px;*/
+	/*border: 1px solid grey;*/
+	/*float: right;*/
+/*}*/
+/*#forget{*/
+	/*width: 71px;*/
+	/*margin-left: 230px;*/
+	/*margin-top: 10px;*/
+	/*border-bottom: 1px solid #DADADA;*/
+	/*cursor: pointer;*/
+	/*font-size: 13px;*/
+/*}*/
+/*#forget a{*/
+	/*color: black;*/
+/*}*/
+#footer{
+	letter-spacing: 60px;
+	text-align: center;
+	font-size: 20px;
+	border-top: 3px solid;
+	clear:both;
+	color: grey;
+
+}
+
+.container {
+	 background: transparent;
+	 overflow: hidden;
+	 width: 1000px;
+	 margin: auto;
+	 border-left: #d2d2d2 1px solid;
+	 border-right: #d2d2d2 1px solid;
+ }
+.con_content {
+	overflow: hidden;
+	width: 958px;
+	margin: auto;
+	border: #CCC 1px solid
+}
+.about_box {
+	padding: 20px;
+	overflow: hidden;
+}
+.nh1 {
+	line-height: 31px;
+	height: 31px;
+	font-size: 14px;
+	border-bottom: #333 2px solid;
+	color: #171717;
+}
+.nh1 span {
+	float: right;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal
+}
+.nh1 span a {
+	color: #666;
+	margin: 0 5px
+}
+.nh1 span a:hover {
+	color: #000
+}
+.a_title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	line-height: 50px
+}
+.p_title {
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	line-height: 50px;
+}
+.about_content {
+	line-height: 24px;
+	font-size: 14px;
+	padding: 20px
+}
+.about_content p {
+	margin-bottom: 15px;
+	text-indent: 2em;
+	text-align: center;
+}
+.about_content p img {
+	margin: auto
+}
+.blank1 {
+	height: 8px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	clear: both
+}
+.wakaka{
+	text-align: center;
+}
+
+
+
+
